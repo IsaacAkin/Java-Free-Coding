@@ -15,8 +15,8 @@ public class PetrolPurchase {
         this.percentageDiscount = percentageDiscount;
     }
 
-    public double getPurchaseAmount(double purchaseAmount) {
-        purchaseAmount = quantityInLitres * pricePerLitre - percentageDiscount;
+    public double getPurchaseAmount() {
+        double purchaseAmount = quantityInLitres * pricePerLitre - percentageDiscount;
         return purchaseAmount;
     }
 
