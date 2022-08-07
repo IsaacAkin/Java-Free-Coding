@@ -28,8 +28,9 @@ public class Account {
     }
 
     public void withdraw(double withdrawalAmount) {
-        if (withdrawalAmount < balance) {
-            balance -= withdrawalAmount;
+        if (withdrawalAmount <= balance) {
+            balance -= withdrawalAmount; // If the withdrawal amount is less than or equal to the balance
+                                        // then it is subtracted from the balance and becomes the new balance
         }
     }
 
