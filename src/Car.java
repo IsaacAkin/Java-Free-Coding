@@ -10,8 +10,6 @@ public class Car {
 
         if (price > 0.0) {
             this.price = price;
-        } else {
-
         }
     }
 
