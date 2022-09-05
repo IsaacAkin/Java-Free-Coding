@@ -1,3 +1,5 @@
+import java.util.Calendar;
+
 public class HeartRates {
 
     private String firstName;
@@ -15,17 +17,17 @@ public class HeartRates {
         this.year = year;
     }
 
-    public int ageInYears() {
-
-    }
-
-    public double maximumHeartRate() {
-
-    }
-
-    public double targetHeartRate() {
-
-    }
+//    public int ageInYears() {
+//
+//    }
+//
+//    public int maximumHeartRate() {
+//
+//    }
+//
+//    public String targetHeartRate() {
+//
+//    }
 
     public String getFirstName() {
         return firstName;
